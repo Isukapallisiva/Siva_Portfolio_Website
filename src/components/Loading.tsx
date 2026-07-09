@@ -48,16 +48,7 @@ const Loading = ({ percent }: { percent: number }) => {
         <a href="/#" className="loader-title" data-cursor="disable">
           Sivarama D.
         </a>
-        <div className={`loaderGame ${clicked && "loader-out"}`}>
-          <div className="loaderGame-container">
-            <div className="loaderGame-in">
-              {[...Array(27)].map((_, index) => (
-                <div className="loaderGame-line" key={index}></div>
-              ))}
-            </div>
-            <div className="loaderGame-ball"></div>
-          </div>
-        </div>
+
       </div>
       <div className="loading-screen">
         <div className="loading-marquee">

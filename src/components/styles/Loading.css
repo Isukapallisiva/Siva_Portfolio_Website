@@ -2,29 +2,29 @@
   position: fixed;
   width: 100vw;
   height: var(--vh);
-  background-color: #07040a;
+  background-color: #0a0f1e;
   background-image:
     /* Glowing orb top-left */
-    radial-gradient(ellipse 60% 50% at 15% 20%, rgba(168, 124, 255, 0.25) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 50% at 15% 20%, rgba(60, 120, 255, 0.25) 0%, transparent 70%),
     /* Glowing orb bottom-right */
-    radial-gradient(ellipse 50% 60% at 85% 80%, rgba(100, 60, 220, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 60% at 85% 80%, rgba(30, 60, 200, 0.2) 0%, transparent 70%),
     /* Subtle center pulse */
-    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(194, 164, 255, 0.06) 0%, transparent 80%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(100, 160, 255, 0.06) 0%, transparent 80%),
     /* Grid lines horizontal */
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 59px,
-      rgba(194, 164, 255, 0.04) 59px,
-      rgba(194, 164, 255, 0.04) 60px
+      rgba(100, 160, 255, 0.04) 59px,
+      rgba(100, 160, 255, 0.04) 60px
     ),
     /* Grid lines vertical */
     repeating-linear-gradient(
       90deg,
       transparent,
       transparent 59px,
-      rgba(194, 164, 255, 0.04) 59px,
-      rgba(194, 164, 255, 0.04) 60px
+      rgba(100, 160, 255, 0.04) 59px,
+      rgba(100, 160, 255, 0.04) 60px
     );
   z-index: 999999999;
   display: flex;
@@ -40,7 +40,7 @@
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(168, 124, 255, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(60, 120, 255, 0.15) 0%, transparent 70%);
   top: -100px;
   left: -100px;
   animation: floatOrb1 8s ease-in-out infinite alternate;
@@ -53,7 +53,7 @@
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(100, 60, 220, 0.18) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(30, 60, 200, 0.18) 0%, transparent 70%);
   bottom: -80px;
   right: -80px;
   animation: floatOrb2 10s ease-in-out infinite alternate;
@@ -132,7 +132,7 @@
   overflow: visible;
 }
 .loading-hover {
-  background-color: #a87cff;
+  background-color: #3c78ff;
   width: 250px;
   height: 120px;
   position: absolute;
@@ -319,7 +319,7 @@
   position: relative;
   width: 10px;
   height: 60px;
-  background-color: rgba(194, 164, 255, 0.7);
+  background-color: rgba(100, 160, 255, 0.7);
   display: block;
 }
 .loaderGame-line:nth-child(2n) {
@@ -334,7 +334,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #a87cff;
+  background-color: #3c78ff;
   animation: ball25 7s infinite;
   transform: translateY(10px);
   animation-timing-function: cubic-bezier(0.3, 1.18, 0.63, 1.28);
@@ -345,7 +345,7 @@
   left: 0;
   width: 100%;
   transform: translateY(-50%);
-  color: rgba(194, 164, 255, 0.08);
+  color: rgba(100, 160, 255, 0.08);
   font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
